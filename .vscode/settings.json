@@ -1,3 +1,7 @@
 {
-    "editor.rulers": [90, 120]
+    "editor.rulers": [
+        90,
+        120
+    ],
+    "twee3LanguageTools.storyformat.current": "sugarcube-2"
 }
