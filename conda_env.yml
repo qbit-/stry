@@ -1,0 +1,13 @@
+name: stry
+channels:
+- conda-forge
+dependencies:
+- ca-certificates=2023.11.17=h8857fd0_0
+- icu=73.2=hf5e326d_0
+- libcxx=16.0.6=hd57cbcb_0
+- libuv=1.46.0=h0c2f820_0
+- libzlib=1.2.13=h8a1eda9_5
+- nodejs=20.9.0=h9adec40_0
+- openssl=3.2.0=hd75f5a5_1
+- zlib=1.2.13=h8a1eda9_5
+
