@@ -6,9 +6,6 @@
     "start": "Start"
 }
 
-:: StoryTitle
-My test story!
-
 :: Start
 This is the first passage in a Twine game!
 

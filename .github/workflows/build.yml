@@ -19,7 +19,7 @@ jobs:
       - name: build game
         run: |
           go install github.com/tmedwards/tweego@v2.0
-          tweego dialogue.twee -o dist/index.html
+          tweego dialogue -o dist/index.html
 
       - name: Deploy to Pages
         uses: peaceiris/actions-gh-pages@v3
