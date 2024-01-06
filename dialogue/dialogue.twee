@@ -6,6 +6,9 @@
     "start": "Start"
 }
 
+:: StoryTitle
+Neuropsy 
+
 :: Start
 This is the first passage in a Twine game!
 
