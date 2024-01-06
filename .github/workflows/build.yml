@@ -20,9 +20,9 @@ jobs:
           ./tweego dialogue -o dist/index.html
 
       - name: Deploy to Pages
-        uses: peaceiris/actions-gh-pages@v4
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: ./dist
+          folder: dist
 
 permissions:
   contents: write
