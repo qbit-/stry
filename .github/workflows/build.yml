@@ -23,6 +23,7 @@ jobs:
           go mod download github.com/Masterminds/semver/v3
           go get github.com/tmedwards/tweego
           cd ../
+          export PATH=$PATH:$(go env GOPATH)/bin
           tweego dialogue -o dist/index.html
 
       - name: Deploy to Pages
