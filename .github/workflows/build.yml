@@ -18,7 +18,11 @@ jobs:
 
       - name: build game
         run: |
-          go install github.com/tmedwards/tweego@v2.0
+          git clone https://github.com/tmedwards/tweego.git
+          cd tweego
+          go mod download github.com/Masterminds/semver/v3
+          go get github.com/tmedwards/tweego
+          cd ../
           tweego dialogue -o dist/index.html
 
       - name: Deploy to Pages
